@@ -55,9 +55,7 @@ Example:
 ```cpp
 #include <string>
 #include <string_view>
-
-std::vector<std::string> search_in_file(std::string_view file_path,
-                                        const TextSearcher& searcher) {
-    std::vector<std::string> results;
-    std::string current_line;
+std::vector<std::string> search_in_file(std::string_view file_path,const TextSearcher& searcher) {
+std::vector<std::string> results;
+std::string current_line;
 ```
